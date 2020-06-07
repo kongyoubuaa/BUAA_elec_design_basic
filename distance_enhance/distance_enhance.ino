@@ -13,6 +13,7 @@ void setup()
        pinMode(EchoPin, INPUT); 
        pinMode(Vcc, OUTPUT);
        pinMode(GND, OUTPUT);
+       pinMode(13, OUTPUT);
        digitalWrite(Vcc, HIGH);
        digitalWrite(GND, LOW);
        flag = true;
